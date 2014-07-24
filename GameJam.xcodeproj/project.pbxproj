@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5386EDA1981A83400992ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386ED91981A83400992ECE /* Foundation.framework */; };
+		F5386EDC1981A83400992ECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386EDB1981A83400992ECE /* CoreGraphics.framework */; };
+		F5386EDE1981A83400992ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386EDD1981A83400992ECE /* UIKit.framework */; };
+		F5386EE41981A83400992ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5386EE21981A83400992ECE /* InfoPlist.strings */; };
+		F5386EE61981A83400992ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5386EE51981A83400992ECE /* main.m */; };
+		F5386EEA1981A83400992ECE /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5386EE91981A83400992ECE /* CardGameAppDelegate.m */; };
+		F5386EED1981A83400992ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5386EEB1981A83400992ECE /* Main.storyboard */; };
+		F5386EF01981A83400992ECE /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5386EEF1981A83400992ECE /* CardGameViewController.m */; };
+		F5386EF21981A83400992ECE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5386EF11981A83400992ECE /* Images.xcassets */; };
+		F5386EF91981A83400992ECE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386EF81981A83400992ECE /* XCTest.framework */; };
+		F5386EFA1981A83400992ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386ED91981A83400992ECE /* Foundation.framework */; };
+		F5386EFB1981A83400992ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5386EDD1981A83400992ECE /* UIKit.framework */; };
+		F5386F031981A83400992ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5386F011981A83400992ECE /* InfoPlist.strings */; };
+		F5386F051981A83400992ECE /* GameJamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5386F041981A83400992ECE /* GameJamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5386EFC1981A83400992ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5386ECE1981A83400992ECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5386ED51981A83400992ECE;
+			remoteInfo = GameJam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5386ED61981A83400992ECE /* GameJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5386ED91981A83400992ECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5386EDB1981A83400992ECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5386EDD1981A83400992ECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5386EE11981A83400992ECE /* GameJam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameJam-Info.plist"; sourceTree = "<group>"; };
+		F5386EE31981A83400992ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5386EE51981A83400992ECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5386EE71981A83400992ECE /* GameJam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameJam-Prefix.pch"; sourceTree = "<group>"; };
+		F5386EE81981A83400992ECE /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		F5386EE91981A83400992ECE /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		F5386EEC1981A83400992ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5386EEE1981A83400992ECE /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		F5386EEF1981A83400992ECE /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		F5386EF11981A83400992ECE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5386EF71981A83400992ECE /* GameJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5386EF81981A83400992ECE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5386F001981A83400992ECE /* GameJamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameJamTests-Info.plist"; sourceTree = "<group>"; };
+		F5386F021981A83400992ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5386F041981A83400992ECE /* GameJamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameJamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5386ED31981A83400992ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386EDC1981A83400992ECE /* CoreGraphics.framework in Frameworks */,
+				F5386EDE1981A83400992ECE /* UIKit.framework in Frameworks */,
+				F5386EDA1981A83400992ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5386EF41981A83400992ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386EF91981A83400992ECE /* XCTest.framework in Frameworks */,
+				F5386EFB1981A83400992ECE /* UIKit.framework in Frameworks */,
+				F5386EFA1981A83400992ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5386ECD1981A83400992ECE = {
+			isa = PBXGroup;
+			children = (
+				F5386EDF1981A83400992ECE /* GameJam */,
+				F5386EFE1981A83400992ECE /* GameJamTests */,
+				F5386ED81981A83400992ECE /* Frameworks */,
+				F5386ED71981A83400992ECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5386ED71981A83400992ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5386ED61981A83400992ECE /* GameJam.app */,
+				F5386EF71981A83400992ECE /* GameJamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5386ED81981A83400992ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5386ED91981A83400992ECE /* Foundation.framework */,
+				F5386EDB1981A83400992ECE /* CoreGraphics.framework */,
+				F5386EDD1981A83400992ECE /* UIKit.framework */,
+				F5386EF81981A83400992ECE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5386EDF1981A83400992ECE /* GameJam */ = {
+			isa = PBXGroup;
+			children = (
+				F5386EE81981A83400992ECE /* CardGameAppDelegate.h */,
+				F5386EE91981A83400992ECE /* CardGameAppDelegate.m */,
+				F5386EEB1981A83400992ECE /* Main.storyboard */,
+				F5386EEE1981A83400992ECE /* CardGameViewController.h */,
+				F5386EEF1981A83400992ECE /* CardGameViewController.m */,
+				F5386EF11981A83400992ECE /* Images.xcassets */,
+				F5386EE01981A83400992ECE /* Supporting Files */,
+			);
+			path = GameJam;
+			sourceTree = "<group>";
+		};
+		F5386EE01981A83400992ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5386EE11981A83400992ECE /* GameJam-Info.plist */,
+				F5386EE21981A83400992ECE /* InfoPlist.strings */,
+				F5386EE51981A83400992ECE /* main.m */,
+				F5386EE71981A83400992ECE /* GameJam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5386EFE1981A83400992ECE /* GameJamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5386F041981A83400992ECE /* GameJamTests.m */,
+				F5386EFF1981A83400992ECE /* Supporting Files */,
+			);
+			path = GameJamTests;
+			sourceTree = "<group>";
+		};
+		F5386EFF1981A83400992ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5386F001981A83400992ECE /* GameJamTests-Info.plist */,
+				F5386F011981A83400992ECE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5386ED51981A83400992ECE /* GameJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5386F081981A83400992ECE /* Build configuration list for PBXNativeTarget "GameJam" */;
+			buildPhases = (
+				F5386ED21981A83400992ECE /* Sources */,
+				F5386ED31981A83400992ECE /* Frameworks */,
+				F5386ED41981A83400992ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameJam;
+			productName = GameJam;
+			productReference = F5386ED61981A83400992ECE /* GameJam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5386EF61981A83400992ECE /* GameJamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5386F0B1981A83400992ECE /* Build configuration list for PBXNativeTarget "GameJamTests" */;
+			buildPhases = (
+				F5386EF31981A83400992ECE /* Sources */,
+				F5386EF41981A83400992ECE /* Frameworks */,
+				F5386EF51981A83400992ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5386EFD1981A83400992ECE /* PBXTargetDependency */,
+			);
+			name = GameJamTests;
+			productName = GameJamTests;
+			productReference = F5386EF71981A83400992ECE /* GameJamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5386ECE1981A83400992ECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardGame;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kabam;
+				TargetAttributes = {
+					F5386EF61981A83400992ECE = {
+						TestTargetID = F5386ED51981A83400992ECE;
+					};
+				};
+			};
+			buildConfigurationList = F5386ED11981A83400992ECE /* Build configuration list for PBXProject "GameJam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5386ECD1981A83400992ECE;
+			productRefGroup = F5386ED71981A83400992ECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5386ED51981A83400992ECE /* GameJam */,
+				F5386EF61981A83400992ECE /* GameJamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5386ED41981A83400992ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386EF21981A83400992ECE /* Images.xcassets in Resources */,
+				F5386EE41981A83400992ECE /* InfoPlist.strings in Resources */,
+				F5386EED1981A83400992ECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5386EF51981A83400992ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386F031981A83400992ECE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5386ED21981A83400992ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386EEA1981A83400992ECE /* CardGameAppDelegate.m in Sources */,
+				F5386EF01981A83400992ECE /* CardGameViewController.m in Sources */,
+				F5386EE61981A83400992ECE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5386EF31981A83400992ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5386F051981A83400992ECE /* GameJamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5386EFD1981A83400992ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5386ED51981A83400992ECE /* GameJam */;
+			targetProxy = F5386EFC1981A83400992ECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5386EE21981A83400992ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5386EE31981A83400992ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5386EEB1981A83400992ECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5386EEC1981A83400992ECE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5386F011981A83400992ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5386F021981A83400992ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5386F061981A83400992ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5386F071981A83400992ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5386F091981A83400992ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameJam/GameJam-Prefix.pch";
+				INFOPLIST_FILE = "GameJam/GameJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5386F0A1981A83400992ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameJam/GameJam-Prefix.pch";
+				INFOPLIST_FILE = "GameJam/GameJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5386F0C1981A83400992ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameJam.app/GameJam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameJam/GameJam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameJamTests/GameJamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5386F0D1981A83400992ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameJam.app/GameJam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameJam/GameJam-Prefix.pch";
+				INFOPLIST_FILE = "GameJamTests/GameJamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5386ED11981A83400992ECE /* Build configuration list for PBXProject "GameJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5386F061981A83400992ECE /* Debug */,
+				F5386F071981A83400992ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5386F081981A83400992ECE /* Build configuration list for PBXNativeTarget "GameJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5386F091981A83400992ECE /* Debug */,
+				F5386F0A1981A83400992ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5386F0B1981A83400992ECE /* Build configuration list for PBXNativeTarget "GameJamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5386F0C1981A83400992ECE /* Debug */,
+				F5386F0D1981A83400992ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5386ECE1981A83400992ECE /* Project object */;
+}
