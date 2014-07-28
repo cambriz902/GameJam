@@ -18,8 +18,6 @@
         PlayingCard *otherCard = [otherCards firstObject];
         if(otherCard.rank == self.rank) {
             score = 4;
-        } else if ([otherCard.suit isEqualToString:self.suit]){
-            score = 1;
         }
     }
     return score;

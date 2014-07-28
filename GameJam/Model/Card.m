@@ -7,6 +7,7 @@
 //
 
 #import "Card.h"
+#import "PlayingCard.h"
 
 @interface Card()
 
@@ -18,9 +19,10 @@
 - (int)match:(NSArray *)otherCards
 {
     int score = 0;
-    
+    PlayingCard *otherCard = [otherCards firstObject];
     for(Card *card in otherCards){
-      if([card.contents isEqualToString:self.contents]){
+        NSRange range = [card.contents rangeOfString:[NSString stringWithFormat:@"%i", otherCard.rank]];
+      if(range.location != NSNotFound){
         score = 1;
       }
     }

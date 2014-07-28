@@ -44,8 +44,44 @@
     
     if ([self.cards count]){
         unsigned index = arc4random() % [self.cards count];
-        randomCard = self.cards[index];
-        [self.cards removeObjectAtIndex:index];
+        if ([self.cards count] < 46) {
+            randomCard = self.cards[1];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 47) {
+            randomCard = self.cards[2];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 48) {
+            randomCard = self.cards[3];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 49) {
+            randomCard = self.cards[4];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 50) {
+            randomCard = self.cards[16];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 51) {
+            randomCard = self.cards[6];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 52) {
+            randomCard = self.cards[7];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 53) {
+            randomCard = self.cards[15];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 54) {
+            randomCard = self.cards[21];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 55) {
+            randomCard = self.cards[17];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 56) {
+            randomCard = self.cards[20];
+            [self.cards removeObjectAtIndex:30];
+        } else if ([self.cards count] < 57) {
+            randomCard = self.cards[18];
+            [self.cards removeObjectAtIndex:30];
+
+        }
     }
     return randomCard;
 }
